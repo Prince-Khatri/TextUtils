@@ -1,0 +1,21 @@
+This are notes for django
+
+First Know about views and urls 
+
+    -view is the file which contains the http front rend set
+
+    -urls helps to show those content
+
+#For showing the content of Text file
+
+    open the text file in the directory and take the content in a variable
+
+    content = file.read()
+
+    then return that in HttpResponse(f"< pre >{content}/< / pre >")
+        {Don't use extra space in html attribute}
+
+        pre helps to preserve the whitespace and newline character
+
+        an f string  is used to sent this content
+

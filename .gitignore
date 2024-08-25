@@ -1,0 +1,19 @@
+# Django specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+/static/
+media/
+
+# If using environment variables
+.env
+
+# Ignore the virtual environment directory
+venv/
+env/
+
+# If using coverage reports
+htmlcov/
+.coverage
